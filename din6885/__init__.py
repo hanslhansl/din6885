@@ -173,6 +173,3 @@ class PassfederNiedrigeForm(Passfeder):
         assert self.form in (Passfeder.Form.A, Passfeder.Form.B, Passfeder.Form.C, Passfeder.Form.E1, Passfeder.Form.E2)
 
         raise NotImplementedError
-
-class PassfederFoo:
-    pass
