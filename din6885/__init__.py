@@ -158,14 +158,14 @@ def PassfederHoheForm(d_1 : float, l : float, form : Passfeder.Form):
 
 def PassfederHoheFormFürWerkzeugmaschinen(d_1 : float, l : float, form : Passfeder.Form):
     """Hohe Form für Werkzeugmaschinen"""
-    assert self.form in (Passfeder.Form.A, Passfeder.Form.C, Passfeder.Form.E1, Passfeder.Form.E2)
+    assert form in (Passfeder.Form.A, Passfeder.Form.C, Passfeder.Form.E1, Passfeder.Form.E2)
 
     raise NotImplementedError
     return Passfeder()
 
 def PassfederNiedrigeForm(d_1 : float, l : float, form : Passfeder.Form):
     """Niedrige Form"""
-    assert self.form in (Passfeder.Form.A, Passfeder.Form.B, Passfeder.Form.C, Passfeder.Form.E1, Passfeder.Form.E2)
+    assert form in (Passfeder.Form.A, Passfeder.Form.B, Passfeder.Form.C, Passfeder.Form.E1, Passfeder.Form.E2)
 
     raise NotImplementedError
     return Passfeder()
